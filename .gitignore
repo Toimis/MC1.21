@@ -1,17 +1,17 @@
-# Ignore everything in the .minecraft directory
+# Ignore everything in the .minecraft directory except the mods and resourcepacks folders
 /*
-
-# Allow the mods and resourcepacks folders
 !/mods/
+!/mods/**
 !/resourcepacks/
+!/resourcepacks/**
 
 # Allow the .gitignore and .gitattributes files
 !.gitignore
 !.gitattributes
 
 # Specifically ignored mods
-mods/CameraOverhaul*.jar
+/mods/CameraOverhaul*.jar
 
 # Specifically ignored resourcepacks
-resourcepacks/Better-Leaves*.zip
-resourcepacks/VanillaTweaks*.zip
+/resourcepacks/Better-Leaves*.zip
+/resourcepacks/VanillaTweaks*.zip

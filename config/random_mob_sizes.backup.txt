@@ -13,12 +13,9 @@
 	"include_list": [
 		"minecraft:*",
 		"wilderwild:*",
-		"snuffles:*",
 		"creeperoverhaul:*",
 		"betternether:*",
-		"betterend:*",
-		"fishofthieves:*",
-		"netherdepthsupgrade:*"
+		"betterend:*"
 	],
 	"exclude_list": [
 		"minecraft:shulker"

@@ -15,3 +15,23 @@
 # Specifically ignored resourcepacks
 /resourcepacks/Better-Leaves*.zip
 /resourcepacks/VanillaTweaks*.zip
+
+# Specifically allowed configs
+!/config/betterend/generator.json
+!/config/sihywtcamd/
+!/config/sihywtcamd/**
+!/config/wilderwild/
+!/config/wilderwild/**
+!/config/debugify.json
+!/config/doubledoors.json5
+!/config/fallingtree.json
+!/config/nyfsspiders-common.toml
+!/config/random_mob_sizes.json
+!/config/revamped_phantoms.json
+!/config/rpgdifficulty.json
+!/config/sparsestructures.json5
+!/config/tectonic.json
+!/config/terrablender.toml
+!/config/toms_storage.json
+!/config/waystones-common.toml
+!/config/yigd.json

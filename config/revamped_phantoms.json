@@ -1,0 +1,10 @@
+{
+  "base_restlessness": 84000,
+  "phantoms_grab_prey": false,
+  "ticks_stun_duration": 32,
+  "ticks_between_stun_attempts": 256,
+  "phantoms_stun_prey": true,
+  "phantom_elytra_pursue_modifier": 8.0,
+  "phantoms_attack_villagers": false,
+  "phantoms_attack_animals": false
+}

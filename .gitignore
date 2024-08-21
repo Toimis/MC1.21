@@ -1,5 +1,7 @@
 # Ignore everything in the .minecraft directory except specified folders and files
 /*
+!/config/
+!/config/**
 !/mods/
 !/mods/**
 !/resourcepacks/
@@ -9,30 +11,50 @@
 !.gitignore
 !.gitattributes
 
+# Specifically ignored configs
+/config/bclib/
+/config/betterend/client.json
+/config/chunky/
+/config/fabric/
+/config/jade/
+/config/jei/
+/config/sound_physics_remastered/
+/config/toughasnails/client.toml
+/config/wover/cached.json
+/config/cameraoverhaul.json
+/config/clean-debug.json
+/config/crepperoverhaul-client.jsonc
+/config/DistantHorizons.toml
+/config/do_a_barrel_roll-client.json
+/config/entity_model_features.json
+/config/entity_texture_features.json
+/config/entityculling.json
+/config/etf_warnings.json
+/config/fallingleaves.json
+/config/frozenlib.json5
+/config/indium-renderer.properties
+/config/iris.properties
+/config/leahs-immersive-thunder.toml
+/config/libgui.json5
+/config/modmenu.json
+/config/moreculling.toml
+/config/patchouli.json5
+/config/resourceful-config-web.json
+/config/sodium-fingerprint.json
+/config/sodium-mixins.properties
+/config/sodium-options.json
+/config/trashslot-common.toml
+/config/travelerstitles*.toml
+/config/visualoverhaul.json
+/config/wakes.json
+/config/yacl.json5
+
 # Specifically ignored mods
 /mods/CameraOverhaul*.jar
+/mods/Chunky*.jar
 
 # Specifically ignored resourcepacks
 /resourcepacks/Better-Leaves*.zip
 /resourcepacks/VanillaTweaks*.zip
 
-# Include only specific config files and directories
-!/config/
-!/config/betterend/generator.json
-!/config/sihywtcamd/
-!/config/sihywtcamd/**
-!/config/wilderwild/
-!/config/wilderwild/**
-!/config/debugify.json
-!/config/doubledoors.json5
-!/config/fallingtree.json
-!/config/nyfsspiders-common.toml
-!/config/random_mob_sizes.json
-!/config/revamped_phantoms.json
-!/config/rpgdifficulty.json
-!/config/sparsestructures.json5
-!/config/tectonic.json
-!/config/terrablender.toml
-!/config/toms_storage.json
-!/config/waystones-common.toml
-!/config/yigd.json
+

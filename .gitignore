@@ -1,4 +1,4 @@
-# Ignore everything in the .minecraft directory except the mods and resourcepacks folders
+# Ignore everything in the .minecraft directory except specified folders and files
 /*
 !/mods/
 !/mods/**
@@ -16,7 +16,8 @@
 /resourcepacks/Better-Leaves*.zip
 /resourcepacks/VanillaTweaks*.zip
 
-# Specifically allowed configs
+# Include only specific config files and directories
+!/config/
 !/config/betterend/generator.json
 !/config/sihywtcamd/
 !/config/sihywtcamd/**

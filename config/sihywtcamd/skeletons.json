@@ -9,13 +9,14 @@
     "spectralArrow": true
   },
   "stray": {
+    "betterSlowness": true,
     "frozenArrows": true,
     "coldBiomeSpawn": true
   },
   "witherSkeleton": {
     "baby": true,
     "bow": true,
-    "ironSword": true
+    "netheriteSword": true
   },
   "skeletonHorse": {
     "skeletonsVariationOnTrap": true,

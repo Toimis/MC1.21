@@ -1,1 +1,6 @@
-*.jar filter=lfs diff=lfs merge=lfs -text
+better-end*.jar filter=lfs diff=lfs merge=lfs -text
+essential_*.jar filter=lfs diff=lfs merge=lfs -text
+dungeons-and-taverns*.jar filter=lfs diff=lfs merge=lfs -text
+better-nether*.jar filter=lfs diff=lfs merge=lfs -text
+BiomesOPlenty*.jar filter=lfs diff=lfs merge=lfs -text
+DistantHorizons*.jar filter=lfs diff=lfs merge=lfs -text
